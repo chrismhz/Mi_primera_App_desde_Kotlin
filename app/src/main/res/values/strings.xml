@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mi primera App desde Kotlin</string>
+    <string name="ingrese_nombre">Ingrese nombre</string>
+    <string name="saludar">SALUDAR</string>
+    <string name="hola_mundo_en_android">Hola Mundo en Android!</string>
+    <string name="medida_de_ancho">Medida de Ancho</string>
+    <string name="medida_de_largo">Medida de Largo</string>
+    <string name="precio_por_metro_cuadrado">Precio por metro cuadrado</string>
+    <string name="calcular_venta">CALCULAR VENTA</string>
+</resources>

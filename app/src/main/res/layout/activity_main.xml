@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="41dp"
+            android:layout_height="44dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hola_mundo_en_android"
+            android:fontFamily="@font/edutasbeginner_variablefont_wght"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/txtNombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/ingrese_nombre"
+                            android:inputType="textPersonName"
+                            android:layout_margin="25dp"/>
+
+                        <EditText
+                            android:id="@+id/txtMedidaAncho"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/medida_de_ancho"
+                            android:inputType="numberDecimal"
+                            android:layout_margin="25dp"/>
+
+                        <EditText
+                            android:id="@+id/txtMedidaLargo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/medida_de_largo"
+                            android:inputType="numberDecimal"
+                            android:layout_margin="25dp"/>
+
+                        <EditText
+                            android:id="@+id/txtPrecioMetro"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/precio_por_metro_cuadrado"
+                            android:inputType="numberDecimal"
+                            android:layout_margin="25dp"/>
+
+                        <EditText
+                            android:id="@+id/txtPrecioMetrou"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/precio_por_metro_cuadrado"
+                            android:inputType="numberDecimal"
+                            android:layout_margin="25dp"/>
+
+                        <EditText
+                            android:id="@+id/txtPrecioMetrod"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/precio_por_metro_cuadrado"
+                            android:inputType="numberDecimal"
+                            android:layout_margin="25dp"/>
+
+                        <EditText
+                            android:id="@+id/txtPrecioMetrot"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/precio_por_metro_cuadrado"
+                            android:inputType="numberDecimal"
+                            android:layout_margin="25dp"/>
+
+                <Button
+                    android:id="@+id/btnCalcular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/calcular_venta"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"/>
+
+                </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>
